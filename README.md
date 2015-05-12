@@ -58,8 +58,6 @@ font-family: KaiTi, '楷体', STKaiti, '华文楷体', serif;
 font-family: FangSong, '仿宋', STFangSong, '华文仿宋', serif;
 ```
 
-**待修订**
-
 - 使用 [`lang`](http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes) 区分 繁体、简体 , 楷体为例
 
 ```
@@ -70,5 +68,4 @@ font-family: FangSong, '仿宋', STFangSong, '华文仿宋', serif;
 :lang(zh-Hant) {
     font-family: DFKai-SB, KaiTi, '楷体', STKaiti, '华文楷体', serif;
 }
-
 ```
