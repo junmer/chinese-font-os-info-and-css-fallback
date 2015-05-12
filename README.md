@@ -1,6 +1,5 @@
 # 中文排版常用字体 的 操作系统安装情况 和 CSS Fallback 方案 ![](https://img.shields.io/badge/release-no-red.svg?style=flat-square)
 
---- 
 
 ## 操作系统自带字体
 
