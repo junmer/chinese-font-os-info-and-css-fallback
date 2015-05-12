@@ -9,7 +9,7 @@
 --------- | ------------- | ------------ | ------------ | -------------
 Win XP    | 宋体（SimSun）, 新宋体（NSimSun）, 新细明體（PMingLiu）| 黑体（SimHei） | 楷体（Kaiti_GB2312）, 微軟標楷（DFKai-SB） | 仿宋（Fangsong_GB2312）
 Win 7     | 宋体（SimSun）, 新宋体（NSimSun）, 细明體（MingLiU）, 新细明體（PMingLiu） | 黑体（SimHei）, 微软雅黑（Microsoft YaHei）, 微軟正黑體（Microsoft JhengHei） | 楷体（Kaiti）, 微軟標楷（DFKai-SB）| 仿宋（Fangsong）
-Win 8     | 宋体（SimSun）, 新宋体（NSimSun）, ,细明體（MingLiU）, 新细明體（PMingLiu）, 华文宋体（STSong）| 黑体（SimHei）, 微软雅黑（Microsoft YaHei）, 微軟正黑體（Microsoft JhengHei）, 华文细黑（STXihei） | 楷体（Kaiti）, 微軟標楷（DFKai-SB）, 华文楷体（STKaiti）| 仿宋（Fangsong）, 华文仿宋（STFangsong）
+Win 8     | 宋体（SimSun）, 新宋体（NSimSun）, 细明體（MingLiU）, 新细明體（PMingLiu）, 华文宋体（STSong）| 黑体（SimHei）, 微软雅黑（Microsoft YaHei）, 微軟正黑體（Microsoft JhengHei）, 华文细黑（STXihei） | 楷体（Kaiti）, 微軟標楷（DFKai-SB）, 华文楷体（STKaiti）| 仿宋（Fangsong）, 华文仿宋（STFangsong）
 OS X      | 华文宋体（STSong）,儷宋 Pro（LiSong Pro）, 宋体 （SimeSun）| 冬青黑体简体中文 （Hiragino Sans GB）, 黑体 （Sime Hei）, 华文黑体（STHeiti）, 兰亭黑（LantingHei）, 儷黑 Pro（LiHei Pro） | 华文楷体（STKaiti）, 楷体（KaiTi）| 仿宋（FangSong）, 华文仿宋（STFangsong）
 
 > - 表格根据 [百度统计 - 操作系统份额报告](http://tongji.baidu.com/data/os) 排序, 截止 2015-5
