@@ -60,7 +60,7 @@ font-family: FangSong, '仿宋', STFangSong, '华文仿宋', serif;
 
 **待修订**
 
-- 使用 `[lang](http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes)` 区分 繁体、简体 , 楷体为例
+- 使用 [`lang`](http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes) 区分 繁体、简体 , 楷体为例
 
 ```
 :lang(zh-Hans) {
