@@ -16,18 +16,20 @@ OS X      | 华文宋体（STSong）,儷宋 Pro（LiSong Pro）, 宋体 （SimeS
 
 **Mobile**
 
-操作系统  | 宋体   | 黑体                       | 楷体         | 仿宋体
+操作系统 | 宋体   | 黑体                       | 楷体         | 仿宋体
 -------- | ----- | ------------------------- | ------------ | -------------
 Android  | -     | Roboto, DroidSansFallback | -            | -
 iOS      | -     | Heiti SC                  | -            | -
 
 
-参考：[iosfonts](http://iosfonts.com/) , [Android Design - typography](http://developer.android.com/design/style/typography.html)
+参考
+> [iOS Fonts](http://iosfonts.com/) , [Android Design - Typography](http://developer.android.com/design/style/typography.html)
 
 
-**待完善**
+**待修订**
 
 - 简体, 繁体 未详细说明
+- Win 2003 也列入统计前五，暂未考虑
 - Linux, Ubuntu 系统未覆盖
 
 ## CSS Fallback
