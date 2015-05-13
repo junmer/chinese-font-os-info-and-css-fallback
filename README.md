@@ -37,13 +37,13 @@ iOS      | -     | Heiti SC                  | -            | -
 - 宋体
 
 ```
-font-family: 'Times New Roman', STSong, '宋体', 'Arial Narrow', serif;
+font-family: 'Arial Narrow', 'Times New Roman', STSong, '宋体', serif;
 ```
 
 - 黑体
 
 ```
-font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '黑体', Arial, sans-serif;
+font-family: Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft Yahei', '黑体', sans-serif;
 ```
 
 - 楷体
