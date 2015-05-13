@@ -10,7 +10,7 @@
 Win XP    | 宋体（SimSun）, 新宋体（NSimSun）, 新细明體（PMingLiu）| 黑体（SimHei） | 楷体（Kaiti_GB2312）, 微軟標楷（DFKai-SB） | 仿宋（Fangsong_GB2312）
 Win 7     | 宋体（SimSun）, 新宋体（NSimSun）, 细明體（MingLiU）, 新细明體（PMingLiu） | 黑体（SimHei）, 微软雅黑（Microsoft YaHei）, 微軟正黑體（Microsoft JhengHei） | 楷体（Kaiti）, 微軟標楷（DFKai-SB）| 仿宋（Fangsong）
 Win 8     | 宋体（SimSun）, 新宋体（NSimSun）, 细明體（MingLiU）, 新细明體（PMingLiu）, 华文宋体（STSong）| 黑体（SimHei）, 微软雅黑（Microsoft YaHei）, 微軟正黑體（Microsoft JhengHei）, 华文细黑（STXihei） | 楷体（Kaiti）, 微軟標楷（DFKai-SB）, 华文楷体（STKaiti）| 仿宋（Fangsong）, 华文仿宋（STFangsong）
-OS X      | 华文宋体（STSong）,儷宋 Pro（LiSong Pro）, 宋体 （SimeSun）| 冬青黑体简体中文 （Hiragino Sans GB）, 黑体 （Sime Hei）, 华文黑体（STHeiti）, 兰亭黑（LantingHei）, 儷黑 Pro（LiHei Pro） | 华文楷体（STKaiti）, 楷体（KaiTi）| 仿宋（FangSong）, 华文仿宋（STFangsong）
+OS X      | 华文宋体（STSong）,儷宋 Pro（LiSong Pro）| 冬青黑体简体中文 （Hiragino Sans GB）, 华文黑体（STHeiti）, 兰亭黑（LantingHei）, 儷黑 Pro（LiHei Pro） | 华文楷体（STKaiti） | 华文仿宋（STFangsong）
 
 > - 根据 [百度统计 - 操作系统份额报告](http://tongji.baidu.com/data/os) 排序, 截止 2015-5
 > - Windows 字体信息 [Microsoft Typography - Fonts and Products](http://www.microsoft.com/typography/fonts/product.aspx#Windows)  
@@ -37,35 +37,35 @@ iOS      | -     | Heiti SC                  | -            | -
 - 宋体
 
 ```
-font-family: STSong, SimSun, 'Arial Narrow', serif;
+font-family: 'Times New Roman', STSong, '宋体', 'Arial Narrow', serif;
 ```
 
 - 黑体
 
 ```
-font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', Arial, sans-serif;
+font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '黑体', Arial, sans-serif;
 ```
 
 - 楷体
 
 ```
-font-family: STKaiti, KaiTi, '楷体', serif;
+font-family: 'Times New Roman', STKaiti, KaiTi, '楷体', serif;
 ```
 
 - 仿宋体
 
 ```
-font-family: STFangSong, FangSong, '仿宋', serif;
+font-family: 'Times New Roman', STFangSong, FangSong, '仿宋', serif;
 ```
 
 **使用 [`lang`](http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes) 区分 繁体、简体，楷体为例**  
 
 ```
 :lang(zh-Hans) {
-    font-family: STKaiti, KaiTi, '楷体', serif;
+    font-family: 'Times New Roman', STKaiti, KaiTi, '楷体', serif;
 }
 
 :lang(zh-Hant) {
-    font-family: DFKai-SB, STKaiti, KaiTi, '楷体', serif;
+    font-family: 'Times New Roman', DFKai-SB, STKaiti, KaiTi, '楷体', serif;
 }
 ```
