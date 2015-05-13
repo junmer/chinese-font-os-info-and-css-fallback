@@ -43,7 +43,7 @@ font-family: STSong, SimSun, 'Arial Narrow', serif;
 - 黑体
 
 ```
-font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei',  Arial, sans-serif;
+font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', Arial, sans-serif;
 ```
 
 - 楷体
@@ -58,9 +58,7 @@ font-family: STKaiti, KaiTi, '楷体', serif;
 font-family: STFangSong, FangSong, '仿宋', serif;
 ```
 
-**使用 [`lang`](http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes) 区分 繁体、简体**  
-
-- 楷体
+**使用 [`lang`](http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes) 区分 繁体、简体，楷体为例**  
 
 ```
 :lang(zh-Hans) {
