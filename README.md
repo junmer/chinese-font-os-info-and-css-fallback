@@ -37,35 +37,37 @@ iOS      | -     | Heiti SC                  | -            | -
 - 宋体
 
 ```
-font-family: SimSun, '宋体', STSong, 'Arial Narrow', serif;
+font-family: STSong, SimSun, 'Arial Narrow', serif;
 ```
 
 - 黑体
 
 ```
-font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei',  Arial, sans-serif;
 ```
 
 - 楷体
 
 ```
-font-family: KaiTi, '楷体', STKaiti, '华文楷体', serif;
+font-family: STKaiti, KaiTi, '楷体', serif;
 ```
 
 - 仿宋体
 
 ```
-font-family: FangSong, '仿宋', STFangSong, '华文仿宋', serif;
+font-family: STFangSong, FangSong, '仿宋', serif;
 ```
 
-- 使用 [`lang`](http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes) 区分 繁体、简体 , 楷体为例
+**使用 [`lang`](http://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes) 区分 繁体、简体**  
+
+- 楷体
 
 ```
 :lang(zh-Hans) {
-    font-family: KaiTi, '楷体', STKaiti, '华文楷体', serif;
+    font-family: STKaiti, KaiTi, '楷体', serif;
 }
 
 :lang(zh-Hant) {
-    font-family: DFKai-SB, KaiTi, '楷体', STKaiti, '华文楷体', serif;
+    font-family: DFKai-SB, STKaiti, KaiTi, '楷体', serif;
 }
 ```
