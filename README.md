@@ -70,7 +70,7 @@ font-family: 'Times New Roman', STFangSong, FangSong, '仿宋', serif;
 }
 ```
 
-关于 Fallback 还有一个更巧妙的解决方案，来自 [`Han.css`](https://github.com/ethantw/Han)：
+关于 `Fallback` 还有一个更巧妙的解决方案，来自 [`Han.css`](https://github.com/ethantw/Han)：
 
 - 黑体 GB (中國國標)
 
@@ -89,3 +89,7 @@ font-family: 'Times New Roman', STFangSong, FangSong, '仿宋', serif;
    unicode-range: U+"+270C";
 }
 ```
+ 
+[`unicode-range`](http://dev.w3.org/csswg/css-fonts/#descdef-unicode-range) 在 IE8-, Firefox 上有兼容性问题，加上不可避免的中英文混排场景，还是推荐使用 `font-famliy` 解决 `Fallback` 问题
+
+> [can i use - unicode-range](http://caniuse.com/#search=unicode-range)
