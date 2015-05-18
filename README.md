@@ -69,3 +69,23 @@ font-family: 'Times New Roman', STFangSong, FangSong, '仿宋', serif;
     font-family: 'Times New Roman', DFKai-SB, STKaiti, KaiTi, '楷体', serif;
 }
 ```
+
+关于 Fallback 还有一个更巧妙的解决方案，来自 [`Han.css`](https://github.com/ethantw/Han)：
+
+- 黑体 GB (中國國標)
+
+```
+@font-face {
+  font-family: 'Han Heiti GB';
+  src:
+    local('Hiragino Sans GB'),
+    local('Lantinghei SC'),
+    local('Heiti SC'),
+
+    local('Microsoft Yahei'),
+
+    local('Droid Sans Fallback')
+  ;
+   unicode-range: U+"+270C";
+}
+```
